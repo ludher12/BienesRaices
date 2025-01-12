@@ -19,6 +19,7 @@ namespace BienesRaices
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
